@@ -6,16 +6,15 @@
 //  Copyright © 2017 Alex Wong. All rights reserved.
 //
 
-
 import UIKit
-
 
 class LogInViewController: UIViewController {
 
-    //Textfields pre-linked with IBOutlets
+    // MARK: - IBOutlets
     @IBOutlet var emailTextfield: UITextField!
     @IBOutlet var passwordTextfield: UITextField!
     
+    // MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,6 +25,7 @@ class LogInViewController: UIViewController {
     }
 
    
+    // MARK: - IBActions
     @IBAction func logInPressed(_ sender: AnyObject) {
 
         

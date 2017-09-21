@@ -11,17 +11,16 @@ import UIKit
 
 class ChatViewController: UIViewController {
     
-    // Declare instance variables here
+    // MARK: - Properties
 
     
-    // We've pre-linked the IBOutlets
+    // MARK: - IBOutlets
     @IBOutlet var heightConstraint: NSLayoutConstraint!
     @IBOutlet var sendButton: UIButton!
     @IBOutlet var messageTextfield: UITextField!
     @IBOutlet var messageTableView: UITableView!
     
-    
-    
+    // MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -87,8 +86,7 @@ class ChatViewController: UIViewController {
     
     
     
-    
-    
+    // MARK: - IBActions
     @IBAction func sendPressed(_ sender: AnyObject) {
         
         

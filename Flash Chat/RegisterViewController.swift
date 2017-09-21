@@ -11,28 +11,25 @@ import Firebase
 
 class RegisterViewController: UIViewController {
 
-    
-    //Pre-linked IBOutlets
-
+    // MARK: - IBOutlets
     @IBOutlet var emailTextfield: UITextField!
     @IBOutlet var passwordTextfield: UITextField!
     
-    
+    // MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
+    // MARK: - Memory Management
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        // Dispose of things to free up memory
     }
     
-
-  
+    // MARK: - IBActions
     @IBAction func registerPressed(_ sender: AnyObject) {
         
-
-        
-        //TODO: Set up a new user on our Firbase database
+        // Register a user to Firebase
         Auth.auth().createUser(withEmail: emailTextfield.text!, password: passwordTextfield.text!) { (user, error) in
             if error != nil {
                 print(error)
