@@ -7,73 +7,146 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FADABA1B1FD52203003B91D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA1A1FD52203003B91D1 /* AppDelegate.swift */; };
-		FADABA1D1FD52203003B91D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA1C1FD52203003B91D1 /* ViewController.swift */; };
-		FADABA201FD52203003B91D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADABA1E1FD52203003B91D1 /* Main.storyboard */; };
-		FADABA221FD52203003B91D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADABA211FD52203003B91D1 /* Assets.xcassets */; };
-		FADABA251FD52203003B91D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADABA231FD52203003B91D1 /* LaunchScreen.storyboard */; };
+		28AD512AFE5C01F462DC90E1 /* Pods_Slack_Overflow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F05CF84678848439A3E3AE /* Pods_Slack_Overflow.framework */; };
+		FADABA391FD5FC70003B91D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA381FD5FC70003B91D1 /* AppDelegate.swift */; };
+		FADABA3B1FD5FC70003B91D1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA3A1FD5FC70003B91D1 /* FirstViewController.swift */; };
+		FADABA3D1FD5FC70003B91D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA3C1FD5FC70003B91D1 /* SecondViewController.swift */; };
+		FADABA401FD5FC71003B91D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADABA3E1FD5FC71003B91D1 /* Main.storyboard */; };
+		FADABA421FD5FC71003B91D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADABA411FD5FC71003B91D1 /* Assets.xcassets */; };
+		FADABA451FD5FC71003B91D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADABA431FD5FC71003B91D1 /* LaunchScreen.storyboard */; };
+		FADABA521FD5FD5F003B91D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FADABA511FD5FD5E003B91D1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FADABA171FD52203003B91D1 /* Slack Overflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slack Overflow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FADABA1A1FD52203003B91D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FADABA1C1FD52203003B91D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FADABA1F1FD52203003B91D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FADABA211FD52203003B91D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FADABA241FD52203003B91D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FADABA261FD52203003B91D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F766486613C2533D619544 /* Pods-Slack Overflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack Overflow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slack Overflow/Pods-Slack Overflow.debug.xcconfig"; sourceTree = "<group>"; };
+		64012BDB41DB01D90CCB6C5F /* Pods-Slack Overflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack Overflow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slack Overflow/Pods-Slack Overflow.release.xcconfig"; sourceTree = "<group>"; };
+		B4F05CF84678848439A3E3AE /* Pods_Slack_Overflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slack_Overflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADABA351FD5FC70003B91D1 /* Slack Overflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slack Overflow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADABA381FD5FC70003B91D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADABA3A1FD5FC70003B91D1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FADABA3C1FD5FC70003B91D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FADABA3F1FD5FC71003B91D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADABA411FD5FC71003B91D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADABA441FD5FC71003B91D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADABA461FD5FC71003B91D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADABA511FD5FD5E003B91D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FADABA141FD52203003B91D1 /* Frameworks */ = {
+		FADABA321FD5FC70003B91D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28AD512AFE5C01F462DC90E1 /* Pods_Slack_Overflow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FADABA0E1FD52203003B91D1 = {
+		51E9727B1414DC4124DAAE79 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FADABA191FD52203003B91D1 /* Slack Overflow */,
-				FADABA181FD52203003B91D1 /* Products */,
+				37F766486613C2533D619544 /* Pods-Slack Overflow.debug.xcconfig */,
+				64012BDB41DB01D90CCB6C5F /* Pods-Slack Overflow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78087EC8D441F47D16404F58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4F05CF84678848439A3E3AE /* Pods_Slack_Overflow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FADABA2C1FD5FC70003B91D1 = {
+			isa = PBXGroup;
+			children = (
+				FADABA371FD5FC70003B91D1 /* Slack Overflow */,
+				FADABA361FD5FC70003B91D1 /* Products */,
+				51E9727B1414DC4124DAAE79 /* Pods */,
+				78087EC8D441F47D16404F58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		FADABA181FD52203003B91D1 /* Products */ = {
+		FADABA361FD5FC70003B91D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FADABA171FD52203003B91D1 /* Slack Overflow.app */,
+				FADABA351FD5FC70003B91D1 /* Slack Overflow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FADABA191FD52203003B91D1 /* Slack Overflow */ = {
+		FADABA371FD5FC70003B91D1 /* Slack Overflow */ = {
 			isa = PBXGroup;
 			children = (
-				FADABA1A1FD52203003B91D1 /* AppDelegate.swift */,
-				FADABA1C1FD52203003B91D1 /* ViewController.swift */,
-				FADABA1E1FD52203003B91D1 /* Main.storyboard */,
-				FADABA211FD52203003B91D1 /* Assets.xcassets */,
-				FADABA231FD52203003B91D1 /* LaunchScreen.storyboard */,
-				FADABA261FD52203003B91D1 /* Info.plist */,
+				FADABA501FD5FCC5003B91D1 /* Services */,
+				FADABA4F1FD5FCAF003B91D1 /* Extensions */,
+				FADABA4E1FD5FCA6003B91D1 /* Model */,
+				FADABA4D1FD5FCA1003B91D1 /* View */,
+				FADABA4C1FD5FC95003B91D1 /* Controller */,
+				FADABA381FD5FC70003B91D1 /* AppDelegate.swift */,
+				FADABA3E1FD5FC71003B91D1 /* Main.storyboard */,
+				FADABA411FD5FC71003B91D1 /* Assets.xcassets */,
+				FADABA431FD5FC71003B91D1 /* LaunchScreen.storyboard */,
+				FADABA461FD5FC71003B91D1 /* Info.plist */,
+				FADABA511FD5FD5E003B91D1 /* GoogleService-Info.plist */,
 			);
 			path = "Slack Overflow";
+			sourceTree = "<group>";
+		};
+		FADABA4C1FD5FC95003B91D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FADABA3A1FD5FC70003B91D1 /* FirstViewController.swift */,
+				FADABA3C1FD5FC70003B91D1 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FADABA4D1FD5FCA1003B91D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FADABA4E1FD5FCA6003B91D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FADABA4F1FD5FCAF003B91D1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FADABA501FD5FCC5003B91D1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FADABA161FD52203003B91D1 /* Slack Overflow */ = {
+		FADABA341FD5FC70003B91D1 /* Slack Overflow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FADABA291FD52203003B91D1 /* Build configuration list for PBXNativeTarget "Slack Overflow" */;
+			buildConfigurationList = FADABA491FD5FC71003B91D1 /* Build configuration list for PBXNativeTarget "Slack Overflow" */;
 			buildPhases = (
-				FADABA131FD52203003B91D1 /* Sources */,
-				FADABA141FD52203003B91D1 /* Frameworks */,
-				FADABA151FD52203003B91D1 /* Resources */,
+				E1F718C0478E5AD1BD92E9D8 /* [CP] Check Pods Manifest.lock */,
+				FADABA311FD5FC70003B91D1 /* Sources */,
+				FADABA321FD5FC70003B91D1 /* Frameworks */,
+				FADABA331FD5FC70003B91D1 /* Resources */,
+				526751B0BA3D8ADAD75BBB50 /* [CP] Embed Pods Frameworks */,
+				8F64C109354915F01278DF8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +154,26 @@
 			);
 			name = "Slack Overflow";
 			productName = "Slack Overflow";
-			productReference = FADABA171FD52203003B91D1 /* Slack Overflow.app */;
+			productReference = FADABA351FD5FC70003B91D1 /* Slack Overflow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FADABA0F1FD52203003B91D1 /* Project object */ = {
+		FADABA2D1FD5FC70003B91D1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Alex Wong";
 				TargetAttributes = {
-					FADABA161FD52203003B91D1 = {
+					FADABA341FD5FC70003B91D1 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = FADABA121FD52203003B91D1 /* Build configuration list for PBXProject "Slack Overflow" */;
+			buildConfigurationList = FADABA301FD5FC70003B91D1 /* Build configuration list for PBXProject "Slack Overflow" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +181,104 @@
 				en,
 				Base,
 			);
-			mainGroup = FADABA0E1FD52203003B91D1;
-			productRefGroup = FADABA181FD52203003B91D1 /* Products */;
+			mainGroup = FADABA2C1FD5FC70003B91D1;
+			productRefGroup = FADABA361FD5FC70003B91D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FADABA161FD52203003B91D1 /* Slack Overflow */,
+				FADABA341FD5FC70003B91D1 /* Slack Overflow */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FADABA151FD52203003B91D1 /* Resources */ = {
+		FADABA331FD5FC70003B91D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADABA251FD52203003B91D1 /* LaunchScreen.storyboard in Resources */,
-				FADABA221FD52203003B91D1 /* Assets.xcassets in Resources */,
-				FADABA201FD52203003B91D1 /* Main.storyboard in Resources */,
+				FADABA451FD5FC71003B91D1 /* LaunchScreen.storyboard in Resources */,
+				FADABA521FD5FD5F003B91D1 /* GoogleService-Info.plist in Resources */,
+				FADABA421FD5FC71003B91D1 /* Assets.xcassets in Resources */,
+				FADABA401FD5FC71003B91D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		526751B0BA3D8ADAD75BBB50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slack Overflow/Pods-Slack Overflow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F64C109354915F01278DF8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slack Overflow/Pods-Slack Overflow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F718C0478E5AD1BD92E9D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		FADABA131FD52203003B91D1 /* Sources */ = {
+		FADABA311FD5FC70003B91D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADABA1D1FD52203003B91D1 /* ViewController.swift in Sources */,
-				FADABA1B1FD52203003B91D1 /* AppDelegate.swift in Sources */,
+				FADABA3D1FD5FC70003B91D1 /* SecondViewController.swift in Sources */,
+				FADABA391FD5FC70003B91D1 /* AppDelegate.swift in Sources */,
+				FADABA3B1FD5FC70003B91D1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FADABA1E1FD52203003B91D1 /* Main.storyboard */ = {
+		FADABA3E1FD5FC71003B91D1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FADABA1F1FD52203003B91D1 /* Base */,
+				FADABA3F1FD5FC71003B91D1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FADABA231FD52203003B91D1 /* LaunchScreen.storyboard */ = {
+		FADABA431FD5FC71003B91D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FADABA241FD52203003B91D1 /* Base */,
+				FADABA441FD5FC71003B91D1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +286,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FADABA271FD52203003B91D1 /* Debug */ = {
+		FADABA471FD5FC71003B91D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +343,7 @@
 			};
 			name = Debug;
 		};
-		FADABA281FD52203003B91D1 /* Release */ = {
+		FADABA481FD5FC71003B91D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,8 +393,9 @@
 			};
 			name = Release;
 		};
-		FADABA2A1FD52203003B91D1 /* Debug */ = {
+		FADABA4A1FD5FC71003B91D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F766486613C2533D619544 /* Pods-Slack Overflow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -285,8 +409,9 @@
 			};
 			name = Debug;
 		};
-		FADABA2B1FD52203003B91D1 /* Release */ = {
+		FADABA4B1FD5FC71003B91D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64012BDB41DB01D90CCB6C5F /* Pods-Slack Overflow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,25 +428,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FADABA121FD52203003B91D1 /* Build configuration list for PBXProject "Slack Overflow" */ = {
+		FADABA301FD5FC70003B91D1 /* Build configuration list for PBXProject "Slack Overflow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FADABA271FD52203003B91D1 /* Debug */,
-				FADABA281FD52203003B91D1 /* Release */,
+				FADABA471FD5FC71003B91D1 /* Debug */,
+				FADABA481FD5FC71003B91D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FADABA291FD52203003B91D1 /* Build configuration list for PBXNativeTarget "Slack Overflow" */ = {
+		FADABA491FD5FC71003B91D1 /* Build configuration list for PBXNativeTarget "Slack Overflow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FADABA2A1FD52203003B91D1 /* Debug */,
-				FADABA2B1FD52203003B91D1 /* Release */,
+				FADABA4A1FD5FC71003B91D1 /* Debug */,
+				FADABA4B1FD5FC71003B91D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FADABA0F1FD52203003B91D1 /* Project object */;
+	rootObject = FADABA2D1FD5FC70003B91D1 /* Project object */;
 }
