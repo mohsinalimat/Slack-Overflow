@@ -15,6 +15,8 @@
 		FADABA421FD5FC71003B91D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADABA411FD5FC71003B91D1 /* Assets.xcassets */; };
 		FADABA451FD5FC71003B91D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADABA431FD5FC71003B91D1 /* LaunchScreen.storyboard */; };
 		FADABA521FD5FD5F003B91D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FADABA511FD5FD5E003B91D1 /* GoogleService-Info.plist */; };
+		FADABA541FD60F19003B91D1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA531FD60F19003B91D1 /* DataService.swift */; };
+		FADABA571FD60F53003B91D1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA561FD60F53003B91D1 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FADABA441FD5FC71003B91D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FADABA461FD5FC71003B91D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADABA511FD5FD5E003B91D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FADABA531FD60F19003B91D1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FADABA561FD60F53003B91D1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 		FADABA371FD5FC70003B91D1 /* Slack Overflow */ = {
 			isa = PBXGroup;
 			children = (
+				FADABA551FD60F4A003B91D1 /* Utilities */,
 				FADABA501FD5FCC5003B91D1 /* Services */,
 				FADABA4F1FD5FCAF003B91D1 /* Extensions */,
 				FADABA4E1FD5FCA6003B91D1 /* Model */,
@@ -130,8 +135,17 @@
 		FADABA501FD5FCC5003B91D1 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				FADABA531FD60F19003B91D1 /* DataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		FADABA551FD60F4A003B91D1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FADABA561FD60F53003B91D1 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADABA571FD60F53003B91D1 /* Constants.swift in Sources */,
 				FADABA3D1FD5FC70003B91D1 /* SecondViewController.swift in Sources */,
 				FADABA391FD5FC70003B91D1 /* AppDelegate.swift in Sources */,
 				FADABA3B1FD5FC70003B91D1 /* FirstViewController.swift in Sources */,
+				FADABA541FD60F19003B91D1 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
