@@ -21,6 +21,7 @@
 		FADABA5B1FD61E2F003B91D1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA5A1FD61E2F003B91D1 /* LoginVC.swift */; };
 		FADABA5D1FD61EAE003B91D1 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA5C1FD61EAE003B91D1 /* InsetTextField.swift */; };
 		FADABA5F1FD64ADE003B91D1 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA5E1FD64ADE003B91D1 /* ShadowView.swift */; };
+		FADABA611FD64C3F003B91D1 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA601FD64C3F003B91D1 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		FADABA5A1FD61E2F003B91D1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		FADABA5C1FD61EAE003B91D1 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		FADABA5E1FD64ADE003B91D1 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		FADABA601FD64C3F003B91D1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				FADABA531FD60F19003B91D1 /* DataService.swift */,
+				FADABA601FD64C3F003B91D1 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				FADABA5D1FD61EAE003B91D1 /* InsetTextField.swift in Sources */,
 				FADABA591FD61339003B91D1 /* AuthenticationVC.swift in Sources */,
 				FADABA391FD5FC70003B91D1 /* AppDelegate.swift in Sources */,
+				FADABA611FD64C3F003B91D1 /* AuthService.swift in Sources */,
 				FADABA3B1FD5FC70003B91D1 /* FirstViewController.swift in Sources */,
 				FADABA541FD60F19003B91D1 /* DataService.swift in Sources */,
 			);
