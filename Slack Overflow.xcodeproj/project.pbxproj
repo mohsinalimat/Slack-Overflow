@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		28AD512AFE5C01F462DC90E1 /* Pods_Slack_Overflow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F05CF84678848439A3E3AE /* Pods_Slack_Overflow.framework */; };
 		FADABA391FD5FC70003B91D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA381FD5FC70003B91D1 /* AppDelegate.swift */; };
-		FADABA3B1FD5FC70003B91D1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA3A1FD5FC70003B91D1 /* FirstViewController.swift */; };
-		FADABA3D1FD5FC70003B91D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA3C1FD5FC70003B91D1 /* SecondViewController.swift */; };
+		FADABA3B1FD5FC70003B91D1 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA3A1FD5FC70003B91D1 /* FeedVC.swift */; };
+		FADABA3D1FD5FC70003B91D1 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADABA3C1FD5FC70003B91D1 /* GroupsVC.swift */; };
 		FADABA401FD5FC71003B91D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADABA3E1FD5FC71003B91D1 /* Main.storyboard */; };
 		FADABA421FD5FC71003B91D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADABA411FD5FC71003B91D1 /* Assets.xcassets */; };
 		FADABA451FD5FC71003B91D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADABA431FD5FC71003B91D1 /* LaunchScreen.storyboard */; };
@@ -30,8 +30,8 @@
 		B4F05CF84678848439A3E3AE /* Pods_Slack_Overflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slack_Overflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADABA351FD5FC70003B91D1 /* Slack Overflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slack Overflow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADABA381FD5FC70003B91D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FADABA3A1FD5FC70003B91D1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FADABA3C1FD5FC70003B91D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FADABA3A1FD5FC70003B91D1 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		FADABA3C1FD5FC70003B91D1 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		FADABA3F1FD5FC71003B91D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FADABA411FD5FC71003B91D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADABA441FD5FC71003B91D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 		FADABA4C1FD5FC95003B91D1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FADABA3A1FD5FC70003B91D1 /* FirstViewController.swift */,
-				FADABA3C1FD5FC70003B91D1 /* SecondViewController.swift */,
+				FADABA3A1FD5FC70003B91D1 /* FeedVC.swift */,
+				FADABA3C1FD5FC70003B91D1 /* GroupsVC.swift */,
 				FADABA581FD61339003B91D1 /* AuthenticationVC.swift */,
 				FADABA5A1FD61E2F003B91D1 /* LoginVC.swift */,
 			);
@@ -289,13 +289,13 @@
 			files = (
 				FADABA5F1FD64ADE003B91D1 /* ShadowView.swift in Sources */,
 				FADABA571FD60F53003B91D1 /* Constants.swift in Sources */,
-				FADABA3D1FD5FC70003B91D1 /* SecondViewController.swift in Sources */,
+				FADABA3D1FD5FC70003B91D1 /* GroupsVC.swift in Sources */,
 				FADABA5B1FD61E2F003B91D1 /* LoginVC.swift in Sources */,
 				FADABA5D1FD61EAE003B91D1 /* InsetTextField.swift in Sources */,
 				FADABA591FD61339003B91D1 /* AuthenticationVC.swift in Sources */,
 				FADABA391FD5FC70003B91D1 /* AppDelegate.swift in Sources */,
 				FADABA611FD64C3F003B91D1 /* AuthService.swift in Sources */,
-				FADABA3B1FD5FC70003B91D1 /* FirstViewController.swift in Sources */,
+				FADABA3B1FD5FC70003B91D1 /* FeedVC.swift in Sources */,
 				FADABA541FD60F19003B91D1 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
