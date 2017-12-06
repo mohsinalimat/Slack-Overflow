@@ -10,21 +10,22 @@ import UIKit
 
 class AuthenticationVC: UIViewController {
 
+    // MARK: - View Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+     
     }
     
+    // MARK: - Actions
+    
     @IBAction func signInWithFacebook(_ sender: Any) {
+        
     }
     
     @IBAction func signInWithGoogle(_ sender: Any) {
+        
     }
     
     @IBAction func signInWithEmail(_ sender: Any) {

@@ -10,9 +10,12 @@ import UIKit
 
 class LoginVC: UIViewController {
 
-    @IBOutlet weak var emailTextField: InsetTextField!
+    // MARK: - Outlets
     
+    @IBOutlet weak var emailTextField: InsetTextField!
     @IBOutlet weak var passwordTextField: InsetTextField!
+    
+    // MARK: - View Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,9 +24,12 @@ class LoginVC: UIViewController {
         passwordTextField.delegate = self
     }
 
+    // MARK: - Actions
+    
     @IBAction func closeLoginVC(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+    
     @IBAction func signInUser(_ sender: Any) {
         
         if emailTextField.text != nil && passwordTextField.text != nil {

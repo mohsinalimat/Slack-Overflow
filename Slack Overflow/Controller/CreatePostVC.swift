@@ -10,24 +10,30 @@ import UIKit
 import Firebase
 
 class CreatePostVC: UIViewController {
+    
+    // MARK: - Outlets
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var sendButton: UIButton!
     
+    // MARK: - View Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         textView.delegate = self
     }
 
+    // MARK: - Actions
+    
     @IBAction func closePostVC(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+    
     @IBAction func sendText(_ sender: Any) {
         if textView.text != nil && textView.text != "Say something here..." {
             sendButton.isEnabled = false
-            
             DataService.instance.uploadPost(withMessage: textView.text!, forUID: (Auth.auth().currentUser?.uid)!, withGroupKey: nil, sendComplete: { (isComplete) in
                 if isComplete {
                     self.sendButton.isEnabled = true
@@ -37,7 +43,6 @@ class CreatePostVC: UIViewController {
                     print("There was an error!")
                 }
             })
-            
         }
     }
 }
