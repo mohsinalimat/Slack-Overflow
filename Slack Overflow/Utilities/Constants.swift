@@ -12,3 +12,7 @@ import Firebase
 // MARK: - Database
 
 let DB_BASE = Database.database().reference()
+
+// MARK: - Segues
+
+let UNWIND = "unwindToFeedVC"

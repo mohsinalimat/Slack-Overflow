@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class MeVC: UIViewController {
 
@@ -26,6 +27,11 @@ class MeVC: UIViewController {
     // MARK: - Actions
     
     @IBAction func logoutUser(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+        } catch {
+            print(error)
+        }
         
     }
 
