@@ -31,12 +31,14 @@ class MeVC: UIViewController {
         let logoutAction = UIAlertAction(title: "Logout", style: .destructive) { (buttonTapped) in
             do {
                 try Auth.auth().signOut()
-                let loginVC = storyboard?.instantiateViewController(withIdentifier: "AuthVC") as? AuthenticationVC
+                let authVC = self.storyboard?.instantiateViewController(withIdentifier: "AuthenticationVC") as? AuthenticationVC
                 
-                self.present(loginVC, animated: true, completion: nil)
+                self.present(authVC!, animated: true, completion: nil)
             } catch {
-                
+                print(error)
             }
         }
+        logoutPopup.addAction(logoutAction)
+        present(logoutPopup, animated: true, completion: nil)
     }
 }
