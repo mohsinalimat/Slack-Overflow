@@ -27,12 +27,16 @@ class MeVC: UIViewController {
     // MARK: - Actions
     
     @IBAction func logoutUser(_ sender: Any) {
-        do {
-            try Auth.auth().signOut()
-        } catch {
-            print(error)
+        let logoutPopup = UIAlertController(title: "Logout?", message: "Are you sure you want to logout?", preferredStyle: .actionSheet)
+        let logoutAction = UIAlertAction(title: "Logout", style: .destructive) { (buttonTapped) in
+            do {
+                try Auth.auth().signOut()
+                let loginVC = storyboard?.instantiateViewController(withIdentifier: "AuthVC") as? AuthenticationVC
+                
+                self.present(loginVC, animated: true, completion: nil)
+            } catch {
+                
+            }
         }
-        
     }
-
 }
